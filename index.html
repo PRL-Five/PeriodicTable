@@ -38,7 +38,7 @@
             padding-bottom: 1%;
             text-align: center;
         }
-        #js1,#img1 {
+        #js1 {
             padding-left: 100px;
             padding-right: 100px;
         }
@@ -46,15 +46,69 @@
             padding-left: 100px;
             padding-right: 100px;
         }
+        #Next1 {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        #thic2 {
+            position: absolute;
+            top: 1%;
+            left:32%;
+        }
+        #contents1 {
+            position: absolute;
+            top: 20%;
+            left: 815px;
+            
+        }
+        #contents2 {
+            position: absolute;
+            top: 20%;
+            left: 90%;
+        }
+        #contents0 {
+            position: absolute;
+            top: 20%;
+            bottom: 50%;
+        }
+        #btn2 {
+            background-image: https://www.mooramo.com/images/CourseImages/firstfourperiods.svg;
+            position: relative;
+            top:275px;
+            padding-bottom: 500px;
+            padding-right: 300px;
+            
+        }
     </style>
 </head>
 <body>
     <div id="reset">
         <h1 class="thic">Welcome</h1>
         <h2 id="thic"> Before we start, what should we call you?</h2>
-        <input type="text" id="inp">
+        <input type="text" id="inp" value="">
         <button onclick="start()" class="start">Lets do this thing!</button>
     </div>
+    <div id="intro">
+        <h1 class="thic">The Periodic Table</h1>
+        <p id="js1">The periodic table, also known as the periodic table of elements, is a tabular display of
+        the chemical elements, which are arranged by atomic number, electron configuration, and recurring chemical 
+        properties. The structure of the table shows periodic trends. The seven rows of the table, called periods,
+        generally have metals on the left and nonmetals on the right. The columns, called groups, contain elements
+        with similar chemical behaviours. Six groups have accepted names as well as assigned numbers: for example,
+        group 17 elements are the halogens; and group 18 are the noble gases. Also displayed are four simple rectangular
+        areas or blocks associated with the filling of different atomic orbitals.</p>
+        <img src="https://www.sciencenewsforstudents.org/wp-content/uploads/2019/11/1080_SS_periodic_table_0-1028x579.png class="img1">
+        <p><strong id="js1">Basically, the periodic table is a table of all the elements arranged in atomic number wise
+        <p id="Next1"></p>
+    <button onclick="start2()" id=reset2>Lets go</button>
+    </div>
+    
+    <div id="choice">
+        <h1 id="thic2">Where do you want to be taken next?</h1>
+        <h2 id="contents0">The Periods</h2>
+        <h2 id="contents1">The Groups</h2>
+        <h2 id="contents2">The History</h2>
+        <button onclick="page3()" type="image" src="https://www.mooramo.com/images/CourseImages/firstfourperiods.svg" id="btn2">
     <script src="tpt2.js"></script>
 </body>
 </html>
